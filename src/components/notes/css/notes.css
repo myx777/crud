@@ -1,0 +1,23 @@
+/* стили для компонента Notes */
+.container {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: baseline;
+}
+
+.notes-container-wrapper {
+  display: flex;
+}
+
+.notes-container-wrapper > .note:nth-child(n + 2) {
+  margin-left: 20px;
+}
+
+.note {
+  width: max-content;
+  height: max-content;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+}
